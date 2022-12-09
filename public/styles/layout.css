@@ -3,6 +3,13 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
+
+ nav {
+  font-family: "Bungee", cursive;
+
+}
+
+
 html {
   box-sizing: border-box;
 }
@@ -18,8 +25,51 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
+
+body::before{
+display: block;
+content: '';
+height: 120px
+}
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ main{
+  width: 90%;
+  margin:auto;
+  background-color: lightgray
+
+ }
+ 
+
+/* On screens that are 600px wide or less, make the menu links 
+stack on top of each other */
+
+
+
+@media only screen and (min-width: 768px){
+   body{
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+    justify-content: space-between;
+
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .profile{
+    padding-right: 100px;
+    width: 100%;
+    }
+
+  }
+
+
+

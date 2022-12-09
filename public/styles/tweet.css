@@ -1,0 +1,95 @@
+.tweet {
+
+  background-color: #f4f1ec;
+  border: solid;
+  align-items: flex-start;
+  height: initial;
+  min-height: 50px;
+  min-width: 100px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+
+}
+.text-box{
+  width: 90%;
+}
+.under-border{
+  width:90%
+}
+
+.tweet:hover {
+  box-shadow: 5px 10px rgb(97, 97, 145);;
+}
+
+.img-user{
+  display: flex;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+.img-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.border {
+  width: auto;
+  background-color: lightgray;
+  border-bottom: solid rgb(42, 52, 52);
+  padding-left: 2px;
+}
+
+
+.content {
+  box-sizing: inherit;
+  overflow-wrap: break-word;
+}
+
+.text {
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+
+
+.date {
+  font-size: small;
+}
+
+.date-icons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.icons {
+  color: rgb(41, 41, 167);
+}
+
+.fa-solid :hover {
+  color: rgb(221, 186, 47);
+}
+
+.fa-heart:hover {
+  color: rgb(221, 186, 47);
+}
+
+.fa-solid:hover {
+  color: rgb(221, 186, 47);
+}
+

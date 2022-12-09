@@ -1,0 +1,30 @@
+.profile-header {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #B0C4DE;
+background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+
+
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 20px;
+}
+
+.profile-name {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#tweet-section{
+  background-color: #f4f1ec;
+}
+

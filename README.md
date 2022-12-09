@@ -18,3 +18,7 @@ This repository is the starter code for the project: Students will fork and clon
 - Node 5.10.x or above
 
 ## Screenshots of Tweeter:
+
+!["Screenshot of tweet compose box"](https://github.com/awomoussa/tweeter/blob/master/docs/tweet-box.png)
+
+!["Screenshot of tweets"](https://github.com/awomoussa/tweeter/blob/master/docs/tweet-box2.png)
